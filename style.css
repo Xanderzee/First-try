@@ -49,3 +49,53 @@ input[type=button] {
 input:active[type=button] {
     background: #e5e5e5;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  .calculator {
+    padding: 10px;
+    border-radius: 2rem;
+    height: 380px;
+    width: 400px;
+    /* margin: auto; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 1rem;
+    /* margin-left: 30rem;
+    margin-top: 10rem; */
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: 1rem;
+    color: black;
+    border-radius: 5rem;
+    width: 100%;
+    height: 65%;
+    gap: 3rem;
+}
+
+#btn {
+    background-color: blue;
+    border: 2rem;
+    border-radius: 5rem;
+    gap: 1rem;
+    }
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+        width: 100%;
+    border-radius: .5rem;
+    height: 50%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+}
